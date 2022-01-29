@@ -38,5 +38,7 @@ To introduce a change to your configuration outside the Terraform workflow, crea
 - Confirm your instance allows port 8080 access.
 - `curl $(terraform output -raw public_ip):8080`
 
+<img width="798" alt="Screen Shot 2565-01-29 at 11 15 28" src="https://user-images.githubusercontent.com/33342822/151647125-cb74df26-fef7-40fa-8d26-b6fcdf4d55b9.png">
+
 ### Reference
 https://learn.hashicorp.com/tutorials/terraform/resource-drift
